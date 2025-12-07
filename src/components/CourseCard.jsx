@@ -13,7 +13,7 @@ export function CourseCard({ course }) {
             <div className="flex justify-between items-start mb-4">
                 <div>
                     <h3 className="text-xl font-bold text-white group-hover:text-blue-400 transition-colors">
-                        {course.code}
+                        {course.id} {course.code}
                     </h3>
                     <p className="text-sm text-slate-400 mt-1">{course.name}</p>
                 </div>
@@ -24,7 +24,7 @@ export function CourseCard({ course }) {
 
             <div className="space-y-3">
                 {course.requisites && (
-                    <div className="flex items-start gap-2 text-sm text-slate-400">
+                    <div classNacme="flex items-start gap-2 text-sm text-slate-400">
                         <AlertCircle className="w-4 h-4 mt-0.5 text-amber-500 shrink-0" />
                         <p><span className="text-slate-300 font-medium">Requisites:</span> {course.requisites}</p>
                     </div>

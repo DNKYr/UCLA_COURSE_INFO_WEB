@@ -1,0 +1,22 @@
+[dotenv@17.2.3] injecting env (2) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+URL: https://rfdjbcrsdiyqattuzpkf.supabase.co
+Key length: 46
+Attempting to fetch from "Course Info"...
+Success! Found 5 records
+Sample record: {
+  node_id: '0',
+  combined_code: 'AEROSTA',
+  id: 'AEROST',
+  code: 'A',
+  name: 'Leadership Laboratory',
+  units: '0',
+  requisites: '',
+  corequisites: '',
+  parsed_requisites: '[]',
+  status_requisites: '0',
+  parsed_corequisites: '[]',
+  status_corequisites: '0'
+}
+
+Testing search query...
+Search found 5 records

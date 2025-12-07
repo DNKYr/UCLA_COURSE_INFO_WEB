@@ -29,7 +29,7 @@ function App() {
                     .limit(50)
 
                 if (debouncedQuery) {
-                    query = query.or(`code.ilike.%${debouncedQuery}%,name.ilike.%${debouncedQuery}%`)
+                    query = query.or(`combined_code.ilike.%${debouncedQuery}%,name.ilike.%${debouncedQuery}%`)
                 }
 
                 const { data, error } = await query

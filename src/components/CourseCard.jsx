@@ -24,7 +24,7 @@ export function CourseCard({ course }) {
 
             <div className="space-y-3">
                 {course.requisites && (
-                    <div classNacme="flex items-start gap-2 text-sm text-slate-400">
+                    <div className="flex items-start gap-2 text-sm text-slate-400">
                         <AlertCircle className="w-4 h-4 mt-0.5 text-amber-500 shrink-0" />
                         <p><span className="text-slate-300 font-medium">Requisites:</span> {course.requisites}</p>
                     </div>

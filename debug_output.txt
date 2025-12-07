@@ -1,0 +1,8 @@
+[dotenv@17.2.3] injecting env (2) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+URL: https://rfdjbcrsdiyqattuzpkf.supabase.co
+Key length: 46
+Attempting to fetch from "Course Info"...
+Success! Found 0 records
+
+Testing search query...
+Search found 0 records
